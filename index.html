@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<button id="btn">开始游戏</button>
+	
+	<script src="js/tools.js"></script>
+	<script src="js/Map.js"></script>
+	<script src="js/Role.js"></script>
+	<script src="js/Self.js"></script>
+	<script src="js/Bullet.js"></script>
+	<script src="js/Enemy.js"></script>
+	<script src="js/EnemyFactory.js"></script>
+	<script src="js/Game.js"></script>
+	<script>
+		$("#btn").onclick = function(){
+			Game.init();
+		}
+	</script>
+</body>
+</html>
